@@ -1,0 +1,13 @@
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    font-family: "Arial Bold", sans-serif;
+    padding: 5px;
+}
