@@ -1,13 +1,39 @@
+body {
+    margin: 0;
+    font-family: "Arial Bold", sans-serif;
+}
+
+main, #img-div { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+}
+
 #image {
     display: block;
     max-width: 100%;
     height: auto;
-    align-items: center;
+    border: #efefe6 solid 10px;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    font-family: "Arial Bold", sans-serif;
-    padding: 5px;
+footer {
+    text-align: center;
+    font-family: "Arial Narrow";
+    font-size: 12px;
+    background-color: #efefe6;
+    padding: 10px 0;
+    position: bottom;
+    margin-top: 20px;
 }
+
+#info {
+    text-align: center;
+    font-size: 18px;
+}
+
+li {
+    padding: 3px 0;
+    font-weight: 500;
+}
+
