@@ -3,7 +3,7 @@ body {
     font-family: "Arial Bold", sans-serif;
 }
 
-main, #img-div { 
+main, #img-div { /*i still dont like this*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,11 +23,12 @@ footer {
     font-size: 12px;
     background-color: #efefe6;
     padding: 10px 0;
-    position: bottom;
-    margin-top: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
-#info {
+.info {
     text-align: center;
     font-size: 18px;
 }
@@ -35,5 +36,10 @@ footer {
 li {
     padding: 3px 0;
     font-weight: 500;
+    font-style: italic;
+}
+
+img {
+    width: 65%;
 }
 
