@@ -40,10 +40,14 @@ footer {
 li {
     padding: 3px 0;
     font-weight: 500;
-    font-style: italic;
 }
 
 img {
     width: 65%;
 }
 
+.tribute-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
